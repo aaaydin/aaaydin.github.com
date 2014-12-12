@@ -14,13 +14,27 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  color: #f22430;
-}
-#footer {
-  background-color: #fdcd60;
+
+h1 {
+  color: #480000 ;
 }
 
+h2 {
+  color: #480000 ;
+}
+
+h3 {
+  color: #480000 ;
+}
+
+h4 {
+  color: #480000 ;
+}
+
+
+#footer {
+  background-color: #F0F0F0;  
+}
 
 
 /* posts index */
