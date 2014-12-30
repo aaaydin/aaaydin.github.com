@@ -13,6 +13,7 @@ body {
   padding-bottom: 10px;  
 }
 
+
 #wrap {
   margin: 0 auto;
   -moz-border-radius-topleft:10px;
@@ -56,3 +57,12 @@ hr {
     border-color: #B0B0B0  ;
     border-width: 1px;
 }
+
+
+ #table1 {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 4px;
+    border-color: black; 
+  }
+
