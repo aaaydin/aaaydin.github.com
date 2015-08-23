@@ -1,9 +1,9 @@
 
 http://aaaydin.github.io/atom.xml
 http://aaaydin.github.io/photo/index.html
+http://aaaydin.github.io/index.html
 http://aaaydin.github.io/cv/index.html
 http://aaaydin.github.io/research/index.html
-http://aaaydin.github.io/index.html
 http://aaaydin.github.io/projects/index.html
 http://aaaydin.github.io/rss.xml
 http://aaaydin.github.io/sitemap.txt
