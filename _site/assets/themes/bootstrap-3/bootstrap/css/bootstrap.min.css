@@ -20,6 +20,7 @@ html{
 	font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 
 body{ 
+	box-shadow: 0px 5px 20px black;
 	position: relative;
 	margin-top: 20px;
 	margin-left: 310px;
