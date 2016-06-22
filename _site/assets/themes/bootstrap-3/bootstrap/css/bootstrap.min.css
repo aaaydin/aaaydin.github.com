@@ -21,7 +21,7 @@ html{
 
 body{ 
 	box-shadow: 0px 5px 20px black;
-	position: relative;
+	position: auto;
 	margin-top: 2%;
 	margin-left: 18%;
 	margin-right: 18%;
