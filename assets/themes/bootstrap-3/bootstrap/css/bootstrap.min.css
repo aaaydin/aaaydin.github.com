@@ -25,8 +25,8 @@ body{
 	font-size: 1em;
 	margin: auto;
 	width:65%;
-	min-width:360px;
-	max-width:2000px;
+/*	min-width:360px;
+	max-width:2000px;*/
 	min-height:95%;
 
 	box-shadow: 0px 10px 10px black;

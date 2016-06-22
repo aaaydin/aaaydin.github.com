@@ -69,13 +69,13 @@
         </div>
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-           <font size="4" >
+        <!--    <font size="4" > -->
           <ul class="nav navbar-nav">
             {% assign pages_list = site.pages | sort:'weight' %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
           </ul>
-            </font>
+          <!--   </font> -->
         </div>
       </div>
     </nav>
