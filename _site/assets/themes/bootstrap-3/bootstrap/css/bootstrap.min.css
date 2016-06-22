@@ -10,7 +10,7 @@ audio,canvas,video{display:inline-block}
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 
 html{
-	margin: auto;
+
 	  width:100%;
 	  height:100%;
 	  background: url("/assets/pictures/19.jpg") no-repeat center center fixed; 
@@ -22,24 +22,27 @@ html{
 	}
 
 body{ 
-
-	margin:0 auto;
-	min-width:600px;
-	max-width:2000px;
+	
+	margin:auto;
+	width:85%;
+	/*min-width:600px;
+	max-width:2000px;*/
 	min-height:95%;
 
 	box-shadow: 0px 10px 10px black;
-	position: relative;
-
-	margin-top: 2%;
-	margin-left: 18%;
-	margin-right: 18%;
-	margin-bottom: 1%;
 	border-radius: 8px;
-	background-repeat:  no-repeat;
-	background-position: center center;
+/*	margin-left: 8%;
+	margin-right: 8%;*/
+/*	position: relative;*/
 
-	vertical-align: middle;
+	/*margin-top: 2%;
+	
+	margin-bottom: 1%;
+	
+/*	background-repeat:  no-repeat;*/
+	/*background-position: center center;*/
+
+
 
 	}
 
@@ -91,7 +94,7 @@ h2,h3{page-break-after:avoid}select{background:#fff!important}.navbar{display:no
 .footer { 
 	width: 100%;
 	bottom: 0;
-	position: absolute;
+	position: relative;
 	font-size: 11px;
 	margin-top: 1%;
 	margin-bottom: 1%;
