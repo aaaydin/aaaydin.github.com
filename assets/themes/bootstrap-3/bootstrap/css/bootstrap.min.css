@@ -22,25 +22,19 @@ html{
 	}
 
 body{ 
-
+	font-size: 1em;
 	margin: auto;
 	width:65%;
 	min-width:360px;
-/*	max-width:2000px;*/
+	max-width:2000px;
 	min-height:95%;
 
 	box-shadow: 0px 10px 10px black;
 	border-radius: 8px;
 	background-repeat: no-repeat;
-/*	margin-left: 8%;
-	margin-right: 8%;*/
-/*	position: relative;*/
 
 	margin-top: 2%;
-	
 	margin-bottom: 1%;
-
-
 	}
 
 
