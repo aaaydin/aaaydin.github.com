@@ -44,9 +44,9 @@
           <div class="header" >
             <hr>  
             <div style="clear: both">
-                <h1 style="display:inline;"> Ahmet Arif AYDIN,</h1>
+                <h2 style="display:inline;"> Ahmet Arif AYDIN,</h1>
                 &nbsp;
-                <h1 style="display:inline;"> Ph.D. Candidate</h1>
+                <h2 style="display:inline;"> Ph.D. Candidate</h1>
             </div>
             <hr>
             <img src="/assets/pictures/cu.jpg" width="97%" > 
@@ -54,26 +54,26 @@
           </div>
        
         <nav class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
         </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
           
-          <ul class="nav navbar-nav">
-            {% assign pages_list = site.pages | sort:'weight' %}
-            {% assign group = 'navigation' %}
-            {% include JB/pages_list %}
-          </ul>
+            <ul class="nav navbar-nav">
+             {% assign pages_list = site.pages | sort:'weight' %}
+              {% assign group = 'navigation' %}
+              {% include JB/pages_list %}
+            </ul>
    
         </div>
-    </nav>
+        </nav>
 
   
         <div  class="content">
