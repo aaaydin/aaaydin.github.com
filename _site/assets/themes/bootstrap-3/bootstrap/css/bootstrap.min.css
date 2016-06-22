@@ -20,7 +20,7 @@ html{
 	font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 
 body{ 
-	box-shadow: 0px 5px 20px black;
+	box-shadow: 0% 2% 2% black;
 	position: relative;
 	margin-top: 2%;
 	margin-left: 18%;
@@ -84,8 +84,8 @@ h2,h3{page-break-after:avoid}select{background:#fff!important}.navbar{display:no
 	bottom: 0;
 	position: absolute;
 	font-size: 11px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 1%;
+	margin-bottom: 1%;
  	text-align: center;
  	vertical-align:center; 
 }
