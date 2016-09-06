@@ -4,7 +4,7 @@
  <title></title>
  <link href="http://aaaydin.github.io/" rel="self"/>
  <link href="http://aaaydin.github.io"/>
- <updated>2016-06-22T15:10:47-06:00</updated>
+ <updated>2016-09-06T14:37:09+03:00</updated>
  <id>http://aaaydin.github.io</id>
  <author>
    <name>Ahmet Arif Aydin</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Jekyll Introduction</title>
    <link href="http://aaaydin.github.io/lessons/2011/12/29/jekyll-introduction"/>
-   <updated>2011-12-29T00:00:00-07:00</updated>
+   <updated>2011-12-29T00:00:00+02:00</updated>
    <id>http://aaaydin.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
@@ -434,7 +434,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at []()
+&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </content>
  </entry>
