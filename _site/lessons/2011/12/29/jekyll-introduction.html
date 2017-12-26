@@ -48,24 +48,30 @@
                 <td  width="65%">
                    <div style="clear: both">
                     <br>
-                    
-                    <h1 style="display:inline;"> Ahmet Arif AYDIN,  </h1>
-                    <h1 style="display:inline;"> Ph.D.  </h1> <br>
-                    <h3 style="display:inline;"> Department of Computer Science, Inonu University </h3> <br>
-                    <h3 style="display:inline;"> </h3>
-                    
+                        
+                        <h2 style="display:inline;"> Assist. Prof. Ahmet Arif AYDIN  </h2> <br>
+                        <h3 style="display:inline;"> Ph.D. , Computer Science </h3> <br>
+                        <h3 style="display:inline;"> Department of Computer Science, Inonu University </h3> <br>
+                        <h3 style="display:inline;"> </h3>
+
+                  
 
                     </div>
                     <br>  
                 </td>
-             <!--    <td align="right" >
-                   <img src="/assets/pictures/tek.jpg" width="45%">
-                </td> -->
+                  <td align="right" >
+                    <br> 
+                      <img src="/assets/pictures/ben.jpg" width="45%" style='border:1px solid #000000' >
+                    <br> 
+
+                </td> 
+
 
               </tr>
 
 
             </table>
+             <br> 
             <!-- <hr> -->
             <!-- <img src="/assets/pictures/cu.jpg" width="97%" >  -->
         
@@ -113,6 +119,14 @@
       
       	
       	<li><a href="/cv/">Curriculum Vitae</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/publications/">Publications</a></li>
       	
       
     
@@ -193,6 +207,14 @@
       
       	
       	<li><a href="/cv/">Curriculum Vitae</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/publications/">Publications</a></li>
       	
       
     
@@ -319,7 +341,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
 
 <p>Jekyll expects your website directory to be laid out like so:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
 |-- _config.yml
 |-- _includes
 |-- _layouts
@@ -334,8 +356,7 @@ Jekyll-bootstrap conveniently provides the base directory format.</p>
     |-- css
         |-- style.css
     |-- javascripts
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>
@@ -414,12 +435,11 @@ Note categories in Jekyll work in a specific way.
 If you define more than one category you are defining a category hierarchy “set”.
 Example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title :  Hello World
 categories : [lessons, beginner]
 ---
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This defines the category hierarchy “lessons/beginner”. Note this is <em>one category</em> node in Jekyll.
 You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.</p>
@@ -440,12 +460,11 @@ Pages do not compute categories nor tags so defining them will have no effect.</
 If pages are defined in sub-directories, the path to the page will be reflected in the url.
 Example:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
 |-- people
     |-- bob
         |-- essay.html
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>This page will be available at <code class="highlighter-rouge">http://yourdomain.com/people/bob/essay.html</code></p>
 
@@ -581,15 +600,14 @@ This is the only way Jekyll knows you want the file processed.</p>
 
 <p>YAML Front Matter must be prepended to the top of template/post/page files:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>---
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: post
 category : pages
 tags : [how-to, jekyll]
 ---
 
 ... contents ...
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
 The data inside the block must be valid YAML.</p>

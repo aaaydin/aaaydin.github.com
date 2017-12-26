@@ -5,8 +5,8 @@
         <description> - Ahmet Arif Aydin</description>
         <link>http://aaaydin.github.io</link>
         <link>http://aaaydin.github.io</link>
-        <lastBuildDate>2017-09-27T23:22:45+03:00</lastBuildDate>
-        <pubDate>2017-09-27T23:22:45+03:00</pubDate>
+        <lastBuildDate>2017-12-26T16:08:44+03:00</lastBuildDate>
+        <pubDate>2017-12-26T16:08:44+03:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -89,7 +89,7 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
 
 &lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
 |-- _config.yml
 |-- _includes
 |-- _layouts
@@ -104,8 +104,7 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
     |-- css
         |-- style.css
     |-- javascripts
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -184,12 +183,11 @@ Note categories in Jekyll work in a specific way.
 If you define more than one category you are defining a category hierarchy “set”.
 Example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 title :  Hello World
 categories : [lessons, beginner]
 ---
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This defines the category hierarchy “lessons/beginner”. Note this is &lt;em&gt;one category&lt;/em&gt; node in Jekyll.
 You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.&lt;/p&gt;
@@ -210,12 +208,11 @@ Pages do not compute categories nor tags so defining them will have no effect.&l
 If pages are defined in sub-directories, the path to the page will be reflected in the url.
 Example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
 |-- people
     |-- bob
         |-- essay.html
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;This page will be available at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
 
@@ -351,15 +348,14 @@ This is the only way Jekyll knows you want the file processed.&lt;/p&gt;
 
 &lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 layout: post
 category : pages
 tags : [how-to, jekyll]
 ---
 
 ... contents ...
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
 The data inside the block must be valid YAML.&lt;/p&gt;
