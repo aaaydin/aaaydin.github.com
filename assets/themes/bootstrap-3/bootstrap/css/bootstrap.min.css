@@ -26,7 +26,7 @@ body{
 
 	font-size: 1em;
 	margin: auto;
-	width:98%;*/
+	width:95%; 
 	/*min-width:80%;  */
 	min-height:92%;
 
@@ -79,6 +79,7 @@ select{background:#fff!important}.navbar{display:none}.table td,.table th{backgr
 .content { 
 	/*min-height: 45%;*/
 	/*70vh;  */
+	margin: auto;
 	margin-left: 15px;
 	margin-right: 15px;
   	text-align: left}
