@@ -2,62 +2,108 @@
 layout: default
 title: Research
 group: 'navigation'
-weight : 5
+weight : 3
 ---
 
-<h4>Research Interests</h4>
 
-<table class="table table-striped">
-   	
-    <tbody>
-        	<tr >
-        		<td> 
-                    <p> Software Engineering, Software Architecture, Data-intensive System Design </p>
-                    <p> Big Data, Data Processing & Analytics, Data Modeling & Management </p>
-                    <p> Crisis Informatics, Algorithms Design </p>
-                   </td>
-        	</tr>
- 	</tbody>
-   </table>
 
-   
-<hr>
-<h4>Technical Skills </h4>
 
-	<table class="table table-striped">
-   	
-        <tbody>
+<table>
 
-        	<tr>
-        		<td><b>Frameworks/APIs  </b></td>
-        		<td> Apache Cassandra/Hadoop/Pig/Spark/Solr, Rails, Redis, MongoDB, OpenMP</td>
-        	</tr>
 
-        	<tr>
-        		<td><b>Programming Languages </b></td>
-        		<td> Ruby, Python, Java, C++, SQL, Prolog</td>
-        	</tr>
+<tr >
 
-        	
+    <td width="50%">
+        <h4>Research Interests</h4>
 
-        	<tr>
-        		<td><b>Operating Systems </b></td>
-        		<td> Mac OS X , CentOS, Ubuntu, Windows XP/7</td>
-        	</tr>
+        <ul>
+            <li>Software Engineering, Software Architecture </li>
+            <li> Data-intensive System Design</li>
+            <li> Big Data Processing & Analytics</li>
+            <li> Data Modeling, Database Management Systems, NoSQL </li>
+            <li> Algorithms Design</li>
 
- 	</tbody>
-   </table>
+        </ul> 
+    
+    </td>
+    
+    <td width="50%">
 
-<hr>
+        <h4>Technical Skills</h4>
 
-<h4>Recent Projects </h4>
+        <ul>
+            <li><b>Frameworks/APIs : </b> Apache Cassandra/Hadoop/Pig/Spark/Solr, Rails, Redis, MongoDB, OpenMP </li>
+            <li> <b>Programming Languages : </b> Ruby, Python, Java, C++, SQL, Prolog </li>
+
+
+            <li> <b>Operating Systems : </b> Mac OS X , CentOS, Ubuntu, Windows XP/7</li>
+       
+  
+
+        </ul> 
+    
+    </td>
+
+</tr>
+
+    
+</table>
+
+<br>  
+
+<h4> Graduate Students   </h4>
+
+<table class="table"  align="center"   >
+        
+        <tr> 
+          <th   align="left">  Name </th>
+          <th   align="left"> Started </th>
+          <th   align="left"> Status/Completed </th>
+          <th   align="left"> Thesis Title </th>
+          <th   align="left"> Location </th>
+        </tr>
+
+        <tbody >
+          <tr>
+            <td> Haki Mehmet Erzi </td>
+            <td> Fall 2018 </td>
+            <td> In Progress</td>
+            <td> TBD </td> 
+            <td> Malatya Büyükşehir Belediyesi </td>
+          </tr>
+        <!-- 
+           <tr>
+            <td> Servet Bozkurt </td>
+            <td> Fall 2018 </td>
+            <td> In Progress</td>
+            <td> TBD </td>
+            <td> ** </td>
+          </tr> -->
+
+          <tr>
+            <td> Tuğba Beril Doğuç </td>
+            <td> Fall 2018 </td>
+            <td > In Progress</td>
+            <td> TBD </td> 
+            <td> ** </td>
+          </tr>
+    
+        </tbody>
+   </table> 
+
+
+
+
+
+
+
+
+
+<!-- <h4>Recent Projects </h4>
 
 
 <br>
-<p><b>PROJECT EPIC (2009-2016)</b>  </p>
 
-<a href="http://epic.cs.colorado.edu" target="_blank">  Project EPIC </a> was launched on 2009 at University of Colorado at Boulder and EPIC stands for <b>"Empowering the Public with Information in Crisis"</b>. Project EPIC is a multi-disciplinary research effort that creates a venue for researchers from various fields such as Software Engineering, Natural Language Processing, and Human-Centered Computing to conduct their research. Project EPIC researchers study "How members of the public make use of social media during times of crisis". Following projects are conducted in the context of Project EPIC.
-</p>
 
 
 <table class="table table-striped">
@@ -74,40 +120,28 @@ weight : 5
         <tbody>
 
 
-            <tr>
-                 <td width="15%"> <b> IDCAP </b> </td>
-                 <td width="55%"> Incremental Data Collection & Analytics Platform (IDCAP) is a new data analytics platform that addresses certain limitations of EPIC Collect and EPIC Analyze that prevented them from providing real-time analytics over Project EPIC’s datasets. The IDCAP thus provides a way to transition Project EPIC from batch-oriented style data processing to real-time data collection and analytics. The IDCAP is a robust, reliable, fault tolerant and 24/7 available data collection and analytics platform. The IDCAP collects tweets via the Twitter Streaming API and stores tweets in Cassandra in an incremental and scalable fashion; it is able to provide greatly improved and significantly faster batch data analysis on previously collected Twitter data sets while also providing real-time analytics on streaming crisis data. Furthermore, the IDCAP is an example of a data- intensive software system that provides insight into the types of techniques and technologies that must be combined to implement such systems and ensure that they are scalable, reliable, and efficient. </td> 
-                 <td  width="15%"> Ahmet Arif Aydin (Principal Designer)</td> 
-                 <td> Ken Anderson</td> 
-                 <td> 2015-Present</td>
-            </tr> 
+            
 
-    
-
-            <tr>
-                 <td width="15%"> <b> ISM </b> </td>
-                 <td width="55%"> Project EPIC tweet datasets are collected during mass emergencies from Twitter microblogging service. Dataset collections can be active for months.  Sorting active datasets in the incremental fashion is challenging. In order to provide incremental sorting for Project EPIC active datasets, incremental sorting method (ISM) is developed. 
-                    ISM sorts newly collected event tweets and incrementally appends them into existing event's dataset with providing entire sorted set and without changing existing tweets status. Also, ISM supports data analytics by providing efficient and fast sorting, searching, filtering for large-scale datasets collected during mass emergency events.</td> 
-                 <td width="15%"> Ahmet Arif Aydin (Principal Designer)</td> 
-                 <td> Ken Anderson</td> 
-                 <td> 2014-Present</td>
-            </tr> 
-
-                <tr>
-                 <td width="15%"> <b> EPIC Analyze </b> </td>
-                 <td width="55%"> The Epic Analyze project is one of the sub projects in Project EPIC. Epic Analyze is a data analytics web application to support crisis informatics research. The ultimate goal of the project is to develop a platform that provide browsing, searching, filtering, sampling, and annotating of large-scale social media datasets collected during mass emergency events. </td>  
-                 <td  width="16%"> Adam Cardenas, Ahmet Arif Aydin, Mario Barrenechea, Mazin Hakem, Sahar Jambi</td> 
-                 <td> Ken Anderson</td> 
-                 <td> 2013-2016</td>
-            </tr> 
-
+                
         </tbody>
     </table>
+ -->
+
+
 
 
 <hr>
 
 <h4>Past Projects</h4>
+
+
+<p><b>PROJECT EPIC (2009-2016)</b>  </p>
+
+<a href="https://epic.colorado.edu/" target="_blank">  Project EPIC </a> was launched on 2009 at University of Colorado at Boulder and EPIC stands for <b>"Empowering the Public with Information in Crisis"</b>. Project EPIC is a multi-disciplinary research effort that creates a venue for researchers from various fields such as Software Engineering, Natural Language Processing, and Human-Centered Computing to conduct their research. Project EPIC researchers study "How members of the public make use of social media during times of crisis". Following projects are conducted in the context of Project EPIC.
+</p>
+
+
+
 <table class="table table-striped">
         <thead align="center">
             <tr>
@@ -120,6 +154,38 @@ weight : 5
         </thead>
 
         <tbody>
+
+
+            <tr>
+                 <td width="15%"> <b> IDCAP </b> </td>
+                 <td width="55%"> Incremental Data Collection & Analytics Platform (IDCAP) is a new data analytics platform that addresses certain limitations of EPIC Collect and EPIC Analyze that prevented them from providing real-time analytics over Project EPIC’s datasets. The IDCAP thus provides a way to transition Project EPIC from batch-oriented style data processing to real-time data collection and analytics. The IDCAP is a robust, reliable, fault tolerant and 24/7 available data collection and analytics platform. The IDCAP collects tweets via the Twitter Streaming API and stores tweets in Cassandra in an incremental and scalable fashion; it is able to provide greatly improved and significantly faster batch data analysis on previously collected Twitter data sets while also providing real-time analytics on streaming crisis data. Furthermore, the IDCAP is an example of a data- intensive software system that provides insight into the types of techniques and technologies that must be combined to implement such systems and ensure that they are scalable, reliable, and efficient. </td> 
+                 <td  width="15%"> Ahmet Arif Aydin (Principal Designer)</td> 
+                 <td> Ken Anderson</td> 
+                 <td> 2015-2020</td>
+            </tr> 
+
+    
+
+            <tr>
+                 <td width="15%"> <b> ISM </b> </td>
+                 <td width="55%"> Project EPIC tweet datasets are collected during mass emergencies from Twitter microblogging service. Dataset collections can be active for months.  Sorting active datasets in the incremental fashion is challenging. In order to provide incremental sorting for Project EPIC active datasets, incremental sorting method (ISM) is developed. 
+                    ISM sorts newly collected event tweets and incrementally appends them into existing event's dataset with providing entire sorted set and without changing existing tweets status. Also, ISM supports data analytics by providing efficient and fast sorting, searching, filtering for large-scale datasets collected during mass emergency events.</td> 
+                 <td width="15%"> Ahmet Arif Aydin (Principal Designer)</td> 
+                 <td> Ken Anderson</td> 
+                 <td> 2014-2016</td>
+            </tr> 
+
+
+            <tr>
+                 <td width="15%"> <b> EPIC Analyze </b> </td>
+                 <td width="55%"> The Epic Analyze project is one of the sub projects in Project EPIC. Epic Analyze is a data analytics web application to support crisis informatics research. The ultimate goal of the project is to develop a platform that provide browsing, searching, filtering, sampling, and annotating of large-scale social media datasets collected during mass emergency events. </td>  
+                 <td  width="16%"> Adam Cardenas, Ahmet Arif Aydin, Mario Barrenechea, Mazin Hakem, Sahar Jambi</td> 
+                 <td> Ken Anderson</td> 
+                 <td> 2013-2016</td>
+            </tr> 
+
+
+
             <tr>
                  <td width="10%"> <b> Recommendation System </b> </td>
                  <td> Recommendation System Project was the final project of CSCI 5502 Data Mining class at <b> University of Colorado Boulder </b>. The main objective was to build a book recommendation system. During the course of the project following algorithms are implemented: User-based Collaborative Filtering (CF) Algorithm, User-based CF Improved Algorithm , and Singular Value Decomposition (SVD) User-based CF Algorithm. </td> 

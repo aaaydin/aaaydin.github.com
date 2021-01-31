@@ -1,12 +1,10 @@
 
 http://aaaydin.github.io/atom.xml
 http://aaaydin.github.io/publications/
-http://aaaydin.github.io/about/
 http://aaaydin.github.io/teaching/
 http://aaaydin.github.io/cv/
-http://aaaydin.github.io/photo/
-http://aaaydin.github.io/
 http://aaaydin.github.io/research/
+http://aaaydin.github.io/
 http://aaaydin.github.io/rss.xml
 http://aaaydin.github.io/sitemap.txt
 
