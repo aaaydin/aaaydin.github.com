@@ -42,31 +42,22 @@
 
   <body>
           <div class="header" >
-  
-            <table align="center" >
-              <tr> 
+
+            <table >
+              <tr>
+            
+          
 
 
-                <td align="right" width="15%">
-                    <br>
-                    <nav class="navbar navbar-default" >
-                      <div class="navbar-collapse" align="center" >
-                          <ul class="nav navbar-nav">
-                              {% assign pages_list = site.pages | sort:'weight' %}
-                               {% assign group = 'navigation' %}
-                               {% include JB/pages_list %}
-                           </ul>
-                      </div>  
-                    </nav> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    
-                </td>
+              <td width="%35" align="left">
 
+                <div>
 
-                <td width="50%" align="center">
-                  <h2> Ahmet Arif AYDIN, PhD  </h2> 
-                  <h3>  Department of Computer Science, Inonu University  </h3> 
-              
+                  <h2 > Ahmet Arif AYDIN, PhD  </h2> 
+                  <h3 >  Department of Computer Science, Inonu University  </h3> 
+                  
 
+                  <p align="left">
                     <a href="https://avesis.inonu.edu.tr/ahmetarif.ayd%C4%B1n" target="_blank">
                       <img src="/assets/pictures/avesis.png" height="40px" width="60px">  </a>
                       &nbsp;
@@ -85,25 +76,63 @@
 
                     &nbsp;
 
-                    <a href="https://www.youtube.com/channel/UCwWN_KOAGL2_7P0_PnrYKyw/playlists?view_as=subscriber" target="_blank">  <img src="/assets/pictures/youtube.png" height="30px" width="60 px">  </a>  <br><br>
+                    <a href="https://www.youtube.com/channel/UCwWN_KOAGL2_7P0_PnrYKyw/playlists?view_as=subscriber" target="_blank">  <img src="/assets/pictures/youtube.png" height="30px" width="60 px">  </a> 
 
-                  </td>
+            </div>  
 
-                 
+                
+
+              </td>
+              
+
+              
+
+
+                  <td width="40%" align="center">
                   
+                  <div>
+              
+                  <img src="/assets/pictures/myp2021.png" width="35%"  style='border:1px solid #000000' >
 
-                   <td align="center" width="35%">
-                      <img src="/assets/pictures/myp2021.png" width="42%"  style='border:1px solid #000000' >
-                  </td> 
-               
+                  </div>
+
+              </td>
 
 
-              </tr>
+              <td width="15%">
+                
+              <div>
+                <nav class="navbar navbar-default" >
+                      <div class="navbar-collapse" align="center" >
+                          <ul class="nav navbar-nav">
+                              {% assign pages_list = site.pages | sort:'weight' %}
+                               {% assign group = 'navigation' %}
+                               {% include JB/pages_list %}
+                           </ul>
+                      </div>  
 
-            </table>    
 
-             <hr>
-          </div>
+               </nav> 
+              
+
+
+            </div>
+
+              </td>
+
+            </tr>
+
+
+            </table>
+
+           
+
+
+             
+
+            
+    
+
 
   
         <div  class="content">
