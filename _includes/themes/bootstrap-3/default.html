@@ -41,20 +41,31 @@
   </head>
 
   <body>
-          <div class="header" align="center" >
+          <div class="header" >
   
-            <table  >
-              <tr align="center"> 
+            <table align="center" >
+              <tr> 
 
-                  </td>
-                <td align="center" width="25%">
-                      <img src="/assets/pictures/myp2021.png" width="70%"  style='border:1px solid #000000' >
-                </td> 
 
-                 
-                <td width="55%" align="left">
+                <td align="right" width="15%">
+                    <br>
+                    <nav class="navbar navbar-default" >
+                      <div class="navbar-collapse" align="center" >
+                          <ul class="nav navbar-nav">
+                              {% assign pages_list = site.pages | sort:'weight' %}
+                               {% assign group = 'navigation' %}
+                               {% include JB/pages_list %}
+                           </ul>
+                      </div>  
+                    </nav> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    
+                </td>
+
+
+                <td width="50%" align="center">
                   <h2> Ahmet Arif AYDIN, PhD  </h2> 
                   <h3>  Department of Computer Science, Inonu University  </h3> 
+              
 
                     <a href="https://avesis.inonu.edu.tr/ahmetarif.ayd%C4%B1n" target="_blank">
                       <img src="/assets/pictures/avesis.png" height="40px" width="60px">  </a>
@@ -78,19 +89,12 @@
 
                   </td>
 
-                  <td align="left" width="20%">
-                    <br>
-                    <nav class="navbar navbar-default" >
-                      <div class="navbar-collapse" align="center" >
-                          <ul class="nav navbar-nav">
-                              {% assign pages_list = site.pages | sort:'weight' %}
-                               {% assign group = 'navigation' %}
-                               {% include JB/pages_list %}
-                           </ul>
-                      </div>  
-                    </nav>
-             
-                </td>
+                 
+                  
+
+                   <td align="center" width="35%">
+                      <img src="/assets/pictures/myp2021.png" width="42%"  style='border:1px solid #000000' >
+                  </td> 
                
 
 
