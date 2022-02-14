@@ -96,6 +96,29 @@ select{background:#fff!important}.navbar{display:none}.table td,.table th{backgr
 }
 
 
+.akerdion {
+border: 1px solid #999;
+border-radius: 5px;
+margin:2px;
+padding: 1.04%;
+} 
+.pasif {
+border-radius: 5px;
+cursor: pointer;
+margin: -1%;
+padding: 8px 10px;
+background: -webkit-linear-gradient(top, #f3f3f3 50%, #f3f3f3 50%);
+}
+
+.aktif {
+border-radius: 5px;
+cursor: pointer;
+margin: -1%;
+padding: 8px 10px;
+background: -webkit-linear-gradient(top, #e6f2ff 50%, #e6f2ff 50%);
+}
+
+
 
 
 
