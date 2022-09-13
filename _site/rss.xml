@@ -5,8 +5,8 @@
         <description> - Ahmet Arif Aydin</description>
         <link>http://aaaydin.github.io</link>
         <link>http://aaaydin.github.io</link>
-        <lastBuildDate>2022-08-02T16:04:46+03:00</lastBuildDate>
-        <pubDate>2022-08-02T16:04:46+03:00</pubDate>
+        <lastBuildDate>2022-09-13T14:28:01+03:00</lastBuildDate>
+        <pubDate>2022-09-13T14:28:01+03:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -30,11 +30,11 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 &lt;h3 id=&quot;what-does-jekyll-do&quot;&gt;What does Jekyll Do?&lt;/h3&gt;
 
 &lt;p&gt;Jekyll is a ruby gem you install on your local system.
-Once there you can call &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory
+Once there you can call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll --server&lt;/code&gt; on a directory and provided that directory
 is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
 compute categories, tags, permalinks, and construct your pages from layout templates and partials.&lt;/p&gt;
 
-&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder.
+&lt;p&gt;Once parsed, Jekyll stores the result in a self-contained static &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder.
 The intention here is that you can serve all contents in this folder statically from a plain static web-server.&lt;/p&gt;
 
 &lt;p&gt;You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
@@ -89,7 +89,7 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
 
 &lt;p&gt;Jekyll expects your website directory to be laid out like so:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
 |-- _config.yml
 |-- _includes
 |-- _layouts
@@ -123,7 +123,7 @@ Jekyll-bootstrap conveniently provides the base directory format.&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;_posts&lt;/strong&gt;
   This folder contains your dynamic content/posts.
-  the naming format is required to be &lt;code class=&quot;highlighter-rouge&quot;&gt;@YEAR-MONTH-DATE-title.MARKUP@&lt;/code&gt;.&lt;/p&gt;
+  the naming format is required to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@YEAR-MONTH-DATE-title.MARKUP@&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;_site&lt;/strong&gt;
@@ -157,10 +157,10 @@ Both posts and pages can have meta-data assigned on a per-page basis such as tit
 &lt;h3 id=&quot;working-with-posts&quot;&gt;Working With Posts&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Creating a Post&lt;/strong&gt;
-Posts are created by properly formatting a file and placing it the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
+Posts are created by properly formatting a file and placing it the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
-A post must have a valid filename in the form &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.
+A post must have a valid filename in the form &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DATE-title.MARKUP&lt;/code&gt; and be placed in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.
 If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
 Additionally, each file must have &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt; prepended to its content.
 YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.&lt;/p&gt;
@@ -183,7 +183,7 @@ Note categories in Jekyll work in a specific way.
 If you define more than one category you are defining a category hierarchy “set”.
 Example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 title :  Hello World
 categories : [lessons, beginner]
 ---
@@ -199,7 +199,7 @@ Pages are created by properly formatting a file and placing it anywhere in the r
 
 &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
 In order to register as a Jekyll page the file must contain &lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&quot;&gt;YAML Front-Matter&lt;/a&gt;.
-Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the &lt;code class=&quot;highlighter-rouge&quot;&gt;site.pages&lt;/code&gt; array for inclusion into your templates.&lt;/p&gt;
+Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site.pages&lt;/code&gt; array for inclusion into your templates.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Categories and Tags&lt;/strong&gt;
 Pages do not compute categories nor tags so defining them will have no effect.&lt;/p&gt;
@@ -208,13 +208,13 @@ Pages do not compute categories nor tags so defining them will have no effect.&l
 If pages are defined in sub-directories, the path to the page will be reflected in the url.
 Example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
 |-- people
     |-- bob
         |-- essay.html
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;This page will be available at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This page will be available at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://yourdomain.com/people/bob/essay.html&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Recommended Pages&lt;/strong&gt;&lt;/p&gt;
 
@@ -232,20 +232,20 @@ A nice about page is easy to do and gives the human perspective to your website.
 &lt;h2 id=&quot;templates-in-jekyll&quot;&gt;Templates in Jekyll&lt;/h2&gt;
 
 &lt;p&gt;Templates are used to contain a page’s or post’s content.
-All templates have access to a global site object variable: &lt;code class=&quot;highlighter-rouge&quot;&gt;site&lt;/code&gt; as well as a page object variable: &lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt;.
+All templates have access to a global site object variable: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site&lt;/code&gt; as well as a page object variable: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt;.
 The site variable holds all accessible content and metadata relative to the site.
 The page variable holds accessible data for the given page or post being rendered at that point.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Create a Template&lt;/strong&gt;
-Templates are created by properly formatting a file and placing it in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
+Templates are created by properly formatting a file and placing it in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Formatting&lt;/strong&gt;
 Templates should be coded in HTML and contain YAML Front Matter.
 All templates can contain Liquid code to work with your site’s data.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rending Page/Post Content in a Template&lt;/strong&gt;
-There is a special variable in all templates named : &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt;.
-The &lt;code class=&quot;highlighter-rouge&quot;&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined.
+There is a special variable in all templates named : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content&lt;/code&gt;.
+The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content&lt;/code&gt; variable holds the page/post content including any sub-template content previously defined.
 Render the content variable wherever you want your main content to be injected into your template:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;...
@@ -264,7 +264,7 @@ define another “root” layout/template within their YAML Front Matter.
 This essentially means a template will render inside of another template.&lt;/p&gt;
 
 &lt;h3 id=&quot;includes&quot;&gt;Includes&lt;/h3&gt;
-&lt;p&gt;In Jekyll you can define include files by placing them in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; folder.
+&lt;p&gt;In Jekyll you can define include files by placing them in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt; folder.
 Includes are NOT templates, rather they are just code snippets that get included into templates.
 In this way, you can treat the code inside includes as if it was native to the parent template.&lt;/p&gt;
 
@@ -332,7 +332,7 @@ This is done with the liquid templating language.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Post and Page files.&lt;/strong&gt;
 All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Template files.&lt;/strong&gt;
-  These files go in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; folder and contain your blogs &lt;strong&gt;templates&lt;/strong&gt;. They should be made in HTML with the help of Liquid syntax.
+  These files go in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; folder and contain your blogs &lt;strong&gt;templates&lt;/strong&gt;. They should be made in HTML with the help of Liquid syntax.
   Since include files are simply injected into templates they are essentially parsed as if they were native to the template.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -348,7 +348,7 @@ This is the only way Jekyll knows you want the file processed.&lt;/p&gt;
 
 &lt;p&gt;YAML Front Matter must be prepended to the top of template/post/page files:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
 layout: post
 category : pages
 tags : [how-to, jekyll]
@@ -365,8 +365,8 @@ The data inside the block must be valid YAML.&lt;/p&gt;
 
 &lt;h4 id=&quot;defining-layouts-for-posts-and-templates-parsing&quot;&gt;Defining Layouts for Posts and Templates Parsing.&lt;/h4&gt;
 
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
-If a template file specifies its own layout, it is effectively being used as a &lt;code class=&quot;highlighter-rouge&quot;&gt;sub-template.&lt;/code&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;layout&lt;/code&gt; parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
+If a template file specifies its own layout, it is effectively being used as a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sub-template.&lt;/code&gt;
 That is to say loading a post file into a template file that refers to another template file with work in the way you’d expect; as a nested sub-template.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-jekyll-generates-the-final-static-files&quot;&gt;How Jekyll Generates the Final Static Files.&lt;/h2&gt;
@@ -382,7 +382,7 @@ The following is an outline of how that’s done:&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Jekyll computes data.&lt;/strong&gt;
   Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one
-  big &lt;code class=&quot;highlighter-rouge&quot;&gt;site&lt;/code&gt; object that holds all the posts, pages, layouts, and respective metadata.
+  big &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site&lt;/code&gt; object that holds all the posts, pages, layouts, and respective metadata.
   At this stage your site is one big computed ruby object.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -401,7 +401,7 @@ The following is an outline of how that’s done:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Notes.&lt;/strong&gt;
 Because Jekyll computes the entire site in one fell swoop, each template is given access to
-a global &lt;code class=&quot;highlighter-rouge&quot;&gt;site&lt;/code&gt; hash that contains useful data. It is this data that you’ll iterate through and format
+a global &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site&lt;/code&gt; hash that contains useful data. It is this data that you’ll iterate through and format
 using the Liquid tags and filters in order to render it onto a given page.&lt;/p&gt;
 
 &lt;p&gt;Remember, in Jekyll you are an end-user. Your API has only two components:&lt;/p&gt;
