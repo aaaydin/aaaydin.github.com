@@ -1,6 +1,7 @@
 
 http://aaaydin.github.io/atom.xml
 http://aaaydin.github.io/publications/
+http://aaaydin.github.io/projects/
 http://aaaydin.github.io/teaching/
 http://aaaydin.github.io/seminar/
 http://aaaydin.github.io/cv/
